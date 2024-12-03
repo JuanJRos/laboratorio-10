@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Filtrar Personajes</title>
+  </head>
+  <body>
+    <main class="main">
+    <div class="root">
+      <h1>Personajes de Mortadelo y Filemón</h1>
+      <div>
+        <input id="name" type="text" name="name">
+        <button type="submit" id="button-filter">Filtrar</button>
+      </div>
+    </div>
+    <div id="character-list" class="character-list"></div>
+    </main>
+    <script type="module" src="./character-list.ts"></script>
+  </body>
+</html>
